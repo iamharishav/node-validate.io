@@ -1,0 +1,51 @@
+<div class="login-box">
+  <div class="login-logo">
+    <a href="/">
+      <img src="/images/7EDGE-logo.png">
+    </a>
+  </div>
+  <div class="login-box-body">
+    {{#if errors}}
+      <ul>
+        {{#each errors}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    {{/if}}
+    <form action="/users/sign_up" method="post">
+      <div class="form-group has-feedback">
+        <input id="signupName" name="email" type="text" maxlength="50" class="form-control" placeholder="Email Address" value="{{request.email}}" >
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="signupName" name="first_name" type="text" maxlength="50" class="form-control" placeholder="First Name" value="{{request.first_name}}">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="signupName" name="last_name" type="text" maxlength="50" class="form-control" placeholder="Last Name" value="{{request.last_name}}">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="signupName" name="mobile_number" type="text" maxlength="50" class="form-control" placeholder="Mobile Number" value="{{request.mobile_number}}">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="signupName" name="company_name" type="text" maxlength="50" class="form-control" placeholder="Company Name" value="{{request.company_name}}">
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <input id="signupPassword" name="password" type="password" maxlength="25" class="form-control" placeholder="Password" length="40" >
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <button type="submit" class="btn btn-primary btn-block btn-flat admin-login-btn hvr-underline-from-left">Sign Up</button>
+        </div>
+      </div>
+      <p class="form-group">By creating an account, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>.</p>
+			<hr>
+			<p></p>Already have an account? <a href="/users/sign_in">Sign In</a></p>
+    </form>
+  </div>
+</div>
+

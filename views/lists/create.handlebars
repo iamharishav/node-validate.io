@@ -1,0 +1,54 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
+  <li class="breadcrumb-item"><a href="/lists">Lists</a></li>
+  <li class="breadcrumb-item active">Create</li>
+</ol>
+
+<div class="container-fluid inner-padding">
+  <div class="animated fadeIn">
+  	<div class="row">
+    <div class="col-lg-12">
+      <div class="box">
+        <div class="box-header">
+          <div class="headline">
+            <h4> Create New List </h4>
+          </div>
+          <div class="box-tools">
+            <div class="input-group input-group-sm">
+              <div class="input-group-btn">
+                <a href="/lists" class="btn btn-default create-new hvr-box-shadow-outset"> Back to List </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-body">
+        	{{#if errors}}
+			      <ul>
+			        {{#each errors}}
+			          <li>{{this}}</li>
+			        {{/each}}
+			      </ul>
+			    {{/if}}
+          <form action="/lists/create" class="form-horizontal" method="post">
+            <div class="form-group">
+              <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+                <input type="text" name="name" class="form-control" placeholder="Website Newsletter Subscribers">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+                <textarea class="form-control" name="description" placeholder="List to send out weekly Newsletter"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class=" col-sm-10">
+                <button type="submit" class="btn btn-danger admin-login-btn hvr-box-shadow-outset">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

@@ -1,0 +1,146 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+.skin-blue .main-header .logo{
+	background: #FFF !important;
+}
+.skin-blue .main-header .navbar,.main-header .sidebar-toggle{
+	background-color: #FFF !important;
+}
+.create-new{
+	float: right;
+	color: #FFF !important;
+	font-weight: bold;
+	font-size: 13px !important;
+  line-height: 1.5 !important;
+}
+.admin-login-btn,.create-new{
+	background: #FAAD16 !important;
+	border: none !important;
+	color: #000;
+}
+.admin-login-btn:hover, .create-new:hover{
+	background: #FAAD16 !important;
+	transition: all 1s;
+  outline: 0;
+  color: #000 !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	vertical-align: middle;
+}
+.skin-blue .main-header .logo{
+	font-weight: bold;
+	color: #0c0b0b;
+}
+.pagination{
+	margin-left: 10px !important; 
+}
+.pagination .previous_page, .pagination em, .pagination a{
+	padding: 5px !important;
+}
+.headline {
+    display: block;
+    margin: 10px 0 5px;
+    border-bottom: 1px dotted #12ADBC;
+}
+.headline h2, .headline h3, .headline h4 {
+    margin: 0 0 -2px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 2px solid #12ADBC;
+}
+.btn-default{
+	text-shadow: none !important;
+}
+.input-group-btn:last-child > .btn{
+	background: #0AACBB !important;
+	color: #FFF !important;
+	font-weight: bold;
+}
+.btn{
+	padding: 6px 18px;
+	border-radius: 0;
+}
+.input-group-sm > .input-group-btn > .btn{
+	height: 33px;
+  padding: 6px 10px;
+}
+span.Active{
+	background: #0AACBB;
+}
+span.Inactive{
+	background: #000;
+}
+.btn-warning:hover {
+    background-color: #f39c12 !important;
+    border-color: none !important; 
+}
+.margin-bottom-15{
+	margin-bottom: 15px;
+}
+.btn-warning, .btn-warning:hover{
+	background-color: #fdb913 !important;
+  border-color: #fdb913 !important;
+}
+.margin-0{
+	margin: 0;
+}
+.padding-10{
+	padding: 10px;
+}
+.padding-0{
+	padding: 0;
+}
+.padding-5{
+	padding-left: 5px;
+  padding-right: 5px;
+}
+.padding-lr-35{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.clients-btns{
+	width: 50%;
+  float: left;
+}
+.padding-bottom-15{
+	padding-bottom: 15px;
+}
+.text-center{
+	text-align: center;
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.box-header > .box-tools {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.breadcrumb{
+	margin-bottom: 8px;
+}
+.box-body{
+	padding-bottom: 10px;
+}
+.form-control{
+	border: none;
+  border-bottom: 1px solid #0bacbb;
+}
+.inner-padding
+{
+	padding-left: 10px !important;
+  padding-right: 10px !important;
+}

@@ -1,0 +1,49 @@
+{
+  "name": "validate.io",
+  "version": "1.0.0",
+  "description": "Scalable & Authentic Email Validation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/harisha-v/validate.io.git"
+  },
+  "keywords": [
+    "Email",
+    "Validation",
+    "Scalable",
+    "Email",
+    "Validation",
+    "Authentic",
+    "Email",
+    "Validation"
+  ],
+  "author": "Harisha V",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.94.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dynamodb": "^1.0.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "noty": "^3.1.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "valid.js": "^1.2.5"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/harisha-v/validate.io/issues"
+  },
+  "homepage": "https://gitlab.com/harisha-v/validate.io#README"
+}

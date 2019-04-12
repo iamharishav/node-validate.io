@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{page_title}}</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/hover.css">
+	<link rel="stylesheet" href="/css/application/simple-line-icons.css">
+  <link href="/css/application/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/application/main.css">
+  <script src="https://use.fontawesome.com/e7d24ee159.js"></script>
+  <style type="text/css">
+  	body{
+  		font-family: 'Titillium Web', sans-serif;
+  	}
+  </style>
+</head>
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+  {{> top_navbar }}
+
+  <div class="app-body">
+    {{> side_navbar }}
+
+    <main class="main">
+      {{{body}}}
+    </main>
+  </div>
+
+  {{> footer }}
+  
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/application/tether.min.js"></script>
+	<script type="text/javascript" src="/js/application/pace.min.js"></script>
+	<script type="text/javascript" src="/js/application/Chart.min.js"></script>
+	<script type="text/javascript" src="/js/application/app.js"></script>
+  <script type="text/javascript" src="/js/application/main.js"></script>
+</body>
+</html>
